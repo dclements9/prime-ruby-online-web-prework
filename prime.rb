@@ -1,4 +1,4 @@
-require benchmark
+require 'benchmark'
 
 puts Benchmark.measure{
 def prime?(number)
