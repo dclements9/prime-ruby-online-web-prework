@@ -1,10 +1,10 @@
-def prime?(integer)
-  if integer < 2
+def prime?(number)
+  if number < 2
       return false
   end
-  integer_array = (2..integer - 1)
-    integer_array.each do |x|
-  if (integer % x) == 0
+  number_array = (2..number - 1)
+    number_array.each do |x|
+  if (number % x) == 0
     return false
     end
   end
