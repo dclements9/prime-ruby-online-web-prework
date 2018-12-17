@@ -1,3 +1,6 @@
+require benchmark
+
+puts Benchmark.measure{
 def prime?(number)
   if number < 2
       return false
@@ -10,3 +13,4 @@ def prime?(number)
   end
   true
 end
+}
