@@ -1,6 +1,6 @@
 require 'benchmark'
 
-puts Benchmark.measure {}
+puts Benchmark.measure {
 def prime?(number)
   if number < 2
       return false
